@@ -48,7 +48,8 @@ set guifont=JetBrainsMono\ Nerd\ Font
 " let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 " set mmp=1300
 " set autochdir                           " Your working directory will always be the same as your working directory
-" set foldcolumn=2                        " Folding abilities
+
+" Folding
 set foldnestmax=10
 set nofoldenable
 set foldlevel=2

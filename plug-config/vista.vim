@@ -7,3 +7,5 @@ let g:vista#renderer#icons = {
 \   "function": "\uf794",
 \   "variable": "\uf71b",
 \  }
+
+map <M-S> :Vista finder coc<cr>

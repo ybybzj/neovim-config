@@ -69,8 +69,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vista.vim'
     " See what keys do like in emacs
     Plug 'liuchengxu/vim-which-key'
-    " Zen mode
-    Plug 'junegunn/goyo.vim'
     " Snippets
     Plug 'honza/vim-snippets'
     Plug 'mattn/emmet-vim'
@@ -81,11 +79,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " undo time travel
     Plug 'mbbill/undotree'
     " Find and replace
-    Plug 'ChristianChiarulli/far.vim'
+    Plug 'brooth/far.vim'
     " Auto change html tags
     Plug 'AndrewRadev/tagalong.vim'
-    " live server
-    Plug 'turbio/bracey.vim'
     " Smooth scroll
     Plug 'psliwka/vim-smoothie'
     " " async tasks
@@ -103,7 +99,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Intuitive buffer closing
     Plug 'moll/vim-bbye'
     " Debugging
-    Plug 'puremourning/vimspector'
     Plug 'szw/vim-maximizer'
     " Neovim in Browser
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
